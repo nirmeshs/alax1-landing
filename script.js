@@ -1,5 +1,5 @@
 const params = new URLSearchParams(window.location.search);
-const TRACKING_ENDPOINT = "https://script.google.com/macros/s/AKfycbxO5WNTX9w2n0oYrEKRDisiTxxJpws7HOaNgq073Lry_b7XfHSJGogDe-UY322KUATO/exec";
+const TRACKING_ENDPOINT = "https://script.google.com/macros/s/AKfycbzoBA-4YHuqbDUa5Fc_3k0PhEz1KCyhlg0PTyQCKkRY6E4Vd6uYRHijWzJdHBuZIO7Y/exec";
 
 const KEYS = ["utm_source","utm_medium","utm_campaign","utm_content","utm_term","ref","fbclid"];
 KEYS.forEach(k => {
